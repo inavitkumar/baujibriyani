@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div id="header"></div>
+    <section class="container text-center py-5 mt-5">
+        <h2>Scan QR Code</h2>
+        <p>Scan any QR code to open the link immediately.</p>
+
+        <div id="qr-reader" style="width: 300px; margin: auto;"></div>
+    </section>
+
+
+    <div id="footer"></div>
+    <script src="../assets/libs/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("../components/header.html");
+            $("#footer").load("../components/footer.html");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: url('../images/hero.jpg') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px #000;
+}
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.menu-card img {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.menu-card img:hover {
+    transform: scale(1.05);
+}

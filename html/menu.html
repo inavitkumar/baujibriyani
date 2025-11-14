@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div id="header"></div>
+    <section class="container py-5 mt-5">
+        <h2 class="text-center mb-4">Our Menu</h2>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="assets/images/pasta.jpg" class="img-fluid rounded">
+                    <h5 class="mt-2">Pasta</h5>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="assets/images/pizza.jpg" class="img-fluid rounded">
+                    <h5 class="mt-2">Pizza</h5>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="assets/images/burger.jpg" class="img-fluid rounded">
+                    <h5 class="mt-2">Burger</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+    <script src="../assets/libs/jquery.min.js"></script>
+    
+    <script>
+        $(function() {
+            $("#header").load("../components/header.html");
+            $("#footer").load("../components/footer.html");
+        });
+    </script>
+
+</body>
+</html>
